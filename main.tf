@@ -32,4 +32,5 @@ resource "azurerm_storage_account" "storage" {
   location                 = azurerm_resource_group.rg.location
   name                     = "stgrcaiml001"
   resource_group_name      = azurerm_resource_group.rg.name
+
 }
