@@ -24,6 +24,7 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   name     = "809-a7218fb1-deploy-to-azure-using-the-terraform-c"
   location = "East US"
+
 }
 
 resource "azurerm_storage_account" "storage" {
